@@ -228,17 +228,18 @@
     var modulo2 = document.getElementById('modulo2Id');
     var texto = document.getElementById('textoId');
 
-    window.setTimeout(function(e){
+   /* window.setTimeout(function(e){
         var aud1 =  new Audio();
         aud1.src="audios/PTCN1.mp3";
         aud1.play();
         console.log("supuesta reproduccion");
-    },500);
-    
+    },500);*/
+
     window.onload = function(){
         var aud1 =  new Audio();
         aud1.src="audios/PTCN1.mp3";
         aud1.play();
+        console.log("Audio 1 ejecutado");
     }
 
     function disparaAn1()
